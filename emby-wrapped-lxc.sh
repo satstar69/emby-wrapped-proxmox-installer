@@ -140,7 +140,7 @@ STORAGE=$(whiptail --backtitle "Proxmox VE Helper Scripts" --title "Storage" --m
 if [ $? -ne 0 ]; then exit 1; fi
 
 # Get Disk Size
-DISK_SIZE=$(whiptail --backtitle "Proxmox VE Helper Scripts" --inputbox "Enter disk size (GB)" 8 58 "8" --title "Disk Size" 3>&1 1>&2 2>&3)
+DISK_SIZE=$(whiptail --backtitle "Proxmox VE Helper Scripts" --inputbox "Enter disk size (GB)" 8 58 "4" --title "Disk Size" 3>&1 1>&2 2>&3)
 if [ $? -ne 0 ]; then exit 1; fi
 
 # Get CPU Cores
