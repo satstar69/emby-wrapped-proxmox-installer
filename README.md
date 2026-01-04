@@ -1,5 +1,5 @@
 # emby-wrapped-proxmox-installer
-Automated LXC installer for Emby Wrapped on Proxmox VE
+Automated LXC installer for Emby Wrapped from https://github.com/davidtorcivia/emby-wrapped-ftp on Proxmox VE
 
 To install in Proxmox just go to the node shell and copy the command below: 
 
